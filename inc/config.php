@@ -2,7 +2,7 @@
 if(!isset($_SESSION)) {
 	session_start();
 }
-$con = mysqli_connect('localhost', 'root', 'zrqweafsd22', 'routing');
+$con = mysqli_connect('localhost', 'root', '', 'routing');
 if(!$con) {
 	echo "Error in connection";
 	}
